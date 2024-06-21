@@ -12,10 +12,10 @@ app.use(express.json());
 app.use(cors());
 app.use("/books", router); // localhost:5000/books
 
-app.use(express.static(path.join(__dirname,'./book-store/build')));
-app.get('*',function(req,res){
-  res.sendFile(path.join(__dirname,"./book-store/build/index.html"));
-})
+// app.use(express.static(path.join(__dirname,'./book-store/build')));
+// app.get('*',function(req,res){
+//   res.sendFile(path.join(__dirname,"./book-store/build/index.html"));
+// })
 mongoose
   .connect(
     process.env.MONGODB_URI
