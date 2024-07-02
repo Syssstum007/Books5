@@ -88,12 +88,12 @@ cd frontend
 ```bash
 npm install
 ```
-## Deployment
-The application is deployed on Vercel and can be accessed [here](https://books5-bg4sw44p3-deepak-kumars-projects-c208f7e3.vercel.app/).
-
 
 5. Run the frontend.
 
 ```bash
 npm stat
 ```
+
+## Deployment
+The application is deployed on Vercel and can be accessed [here](https://books5-bg4sw44p3-deepak-kumars-projects-c208f7e3.vercel.app/).
